@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: agtc-srv-management 
+spec:
+  type: ClusterIP
+  selector:
+    app: ms-management
+  ports:
+    - protocol: TCP
+      port: 80        
+      targetPort: 8080 
