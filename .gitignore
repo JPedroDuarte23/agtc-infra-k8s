@@ -1,4 +1,4 @@
-*/secrets.yml
+k8s\*\secrets.yml
 */.env
 */.env.local
 */.env.*.local
